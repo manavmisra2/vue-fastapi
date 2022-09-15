@@ -1,10 +1,16 @@
 <template>
- <h1>Hello World</h1> 
+    <v-row>
+        <v-col>
+            <Form />
+        </v-col>
+        <v-col>
+            <Table />
+
+        </v-col>
+    </v-row>
 </template>
-
-<script>
+<script> 
 export default {
-
 }
 </script>
 
