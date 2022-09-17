@@ -3,7 +3,7 @@ export const state = () => ({
 })
 
 export const mutations = {
-    storeUsers : (state,data)=>{
+    storeData : (state,data)=>{
         state.data = data
     }
 }

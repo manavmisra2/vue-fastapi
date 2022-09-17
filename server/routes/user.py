@@ -6,6 +6,12 @@ from schemas.user import User
 user = APIRouter()
 
 
+# @user.print1('/')
+# def printing():
+#     str = "Hello"
+#     return str
+
+
 @user.get('/')
 def fetch_all():
     return conn.execute(users.select()).fetchall()

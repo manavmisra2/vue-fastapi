@@ -71,7 +71,7 @@ export default{
     resetForm(user)
     {
       this.$store.commit("user/storeId", user.id);
-      this.$store.commit("user/storeName", user.email);
+      this.$store.commit("user/storeName", user.name);
       this.$store.commit("user/storeEmail", user.email);
       this.$store.commit("user/password", user.password);     
     }
